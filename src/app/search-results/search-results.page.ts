@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { ComponentFactoryResolver, OnInit } from '@angular/core';
 import { NavExtrasService } from '../nav-extras.service';
 import { ApiService } from '../api.service';
 import { Router } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
 import { AlertController, } from '@ionic/angular';
-import { routerNgProbeToken } from '@angular/router/src/router_module';
+import { routerNgProbeToken } from '@angular/router';
 import { StorageService } from '../storage.service';
 
 @Component({
